@@ -1,6 +1,7 @@
-//
-// Created by jcarvic on 23/03/25.
-//
+/**
+ * @brief Functions and resources for the algorithms
+ * @author Juan Carrasco Vico
+ */
 
 #ifndef UTILS_H
 #define UTILS_H
@@ -18,4 +19,10 @@ typedef struct {
  */
 void sortable_int_array_printf(const sortable_int_array* arr);
 
+/**
+ * Swaps the values of two integers
+ * @param a the first integer
+ * @param b the second integer
+ */
+void swap(int* a, int* b);
 #endif //UTILS_H

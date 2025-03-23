@@ -4,7 +4,8 @@ project(Sorting_Algorithms C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Sorting_Algorithms main.c
-        sort.c
         sort.h
         sort_utils.c
-        sort_utils.h)
+        sort_utils.h
+        mergesort.c
+        insertion.c)

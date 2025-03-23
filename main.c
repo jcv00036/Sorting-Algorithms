@@ -31,6 +31,10 @@ int main(void) {
     insertion_sort(&array);
     printf("Insertion sorted array: "); sortable_int_array_printf(&array);
 
+    //Mergesort tryout
+    initial_array(&array); mergesort(&array);
+    printf("Mergesort sorted array: "); sortable_int_array_printf(&array);
+
     free(elements);
     return 0;
 }
